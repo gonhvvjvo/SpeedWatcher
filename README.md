@@ -1,10 +1,11 @@
 # SpeedWatcher
 Script Internet Speed Test &amp; Send LINE Alert
 # How to use
-- Install speedtest-cli
+- Install speedtest-cli (require login root)
 ```
-wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
-chmod +x speedtest-cli
+ln -s /usr/bin/python3.8 /usr/bin/python
+wget -O /usr/bin/speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
+chmod +x /usr/bin/speedtest-cli
 ```
 - Edit script & Insert your LINE token
 - Add cront
