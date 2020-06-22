@@ -2,7 +2,7 @@
 
 # Configuration
 SpeedBaseline=60  # Mbps
-LinkName="FTTH TRUE1"
+LinkName="Link TRUE1"
 MSGNormal="Normal"
 MSGProblem="Problem"
 LINEAccessToken=xxxx
