@@ -15,5 +15,6 @@ chmod +x /opt/SpeedWatcher/SpeedWatcher.sh
 ```
 - Add cron
 ```
-20 * * * * /opt/SpeedWatcher/SpeedWatcher.sh
+crontab -e
+0 8 * * * /opt/SpeedWatcher/SpeedWatcher.sh >> /var/log/SpeedWatcher.log 2>&1
 ```
