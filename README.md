@@ -8,11 +8,12 @@ wget -O /usr/bin/speedtest-cli https://raw.githubusercontent.com/sivel/speedtest
 chmod +x /usr/bin/speedtest-cli
 ```
 - Edit script & Insert your LINE token
-- Add cront
 ```
-20 * * * * /home/lucky/SpeedWatcher.sh
+mkdir -p /opt/SpeedWatcher
+wget -O /opt/SpeedWatcher/SpeedWatcher.sh https://raw.githubusercontent.com/gonhvvjvo/SpeedWatcher/master/SpeedWatcher.sh
+chmod +x /opt/SpeedWatcher/SpeedWatcher.sh
 ```
-- Don't forget to make the script executable:
+- Add cron
 ```
-chmod +x /home/lucky/SpeedWatcher.sh
+20 * * * * /opt/SpeedWatcher/SpeedWatcher.sh
 ```
